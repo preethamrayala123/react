@@ -1,0 +1,13 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr auto; /* Creates two columns, first one takes the available space, second one is auto-sized */
+    align-items: center;
+  }
+  
+  .logout-button {
+    justify-self: end; 
+    margin-right: 15px;
+    /* Aligns the button to the end of its grid cell */
+    /* Add any button styles here if necessary */
+  }
+  

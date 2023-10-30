@@ -1,0 +1,27 @@
+.login-container {
+    width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(167, 12, 12, 0.488);
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center
+  }
+
+  input {
+    width: 85%;
+    padding: 8px;
+    padding-bottom: 2px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

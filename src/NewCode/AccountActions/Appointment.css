@@ -1,0 +1,27 @@
+/* 
+.container{
+  display: flex;
+  justify-content: center;
+} */
+
+.button-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; /* Adjust the height as needed */
+    background-color: #f0f0f0; /* Adjust the background color as needed */
+  }
+
+  .button {
+    margin: 0 10px; /* Adjust the margin as needed */
+     padding: 10px 20px; /* Adjust the padding as needed */
+    background-color: gray; /* Set the background color of the buttons */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Adjust the border radius as needed */
+    cursor: pointer;
+  }
+
+  .button:hover{
+    background-color: #45a049;
+  }
